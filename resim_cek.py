@@ -3,7 +3,7 @@ import cv2
 def resim_cek(kayit_yolu="w3.jpg"):
     try:
         # Kamera bağlantısını başlatın (varsayılan olarak 0, birincil kamera)
-        kamera = cv2.VideoCapture(1)
+        kamera = cv2.VideoCapture(2)
 
         # Kameradan bir kare çekin
         ret, kare = kamera.read()

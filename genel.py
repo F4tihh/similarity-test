@@ -11,7 +11,7 @@ import time
 
 start_time = time.time()
 
-resim_cek()
+#resim_cek()
 # İlk işlemi çağırın
 ilk_secim_q3('w3.jpg')
 
